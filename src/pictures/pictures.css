@@ -1,4 +1,4 @@
-.contents-wrapper {
+.content-wrapper {
   max-width: 1010px;
   width: 100%;
   margin: 0 auto;
@@ -6,12 +6,14 @@
 }
 
 .main {
-background-color: #fafafa;
-min-height: 400px;
+  background-color: #fafafa  ;
+  min-height: 400px;
 }
 
 .pictures {
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .picture {
@@ -20,9 +22,5 @@ min-height: 400px;
   background-color: #FFFFE0;
   margin-right: 20px;
   margin-bottom: 20px;
-  flex: 1;
-}
-
-.pictures-row {
-  display: flex;
+  flex: 0 0 293px;
 }
