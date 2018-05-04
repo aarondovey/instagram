@@ -1,0 +1,28 @@
+.contents-wrapper {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 26px 40px;
+}
+
+.main {
+background-color: #fafafa;
+min-height: 400px;
+}
+
+.pictures {
+  padding: 0;
+}
+
+.picture {
+  width: 293px;
+  height: 293px;
+  background-color: #FFFFE0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.pictures-row {
+  display: flex;
+}

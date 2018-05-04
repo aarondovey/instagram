@@ -1,0 +1,14 @@
+.header {
+background-color: #fff;
+border-bottom: 1px solid rgba(0,0,0,.0975);
+top: 0;
+width: 100%;
+z-index: 1;
+height: 77px;
+}
+
+.inner-header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
